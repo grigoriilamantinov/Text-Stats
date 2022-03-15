@@ -19,11 +19,16 @@ public class App {
         switch (switcher) {
             case 1:
                 System.out.println("Длина вашего текста: " + text.length());
-            break;
+                break;
 
             case 2:
                 System.out.println(text.toUpperCase());
-            break;
+                break;
+
+            case 3:
+                menu.digitCount(text);
+                break;
+
         }
 
 
